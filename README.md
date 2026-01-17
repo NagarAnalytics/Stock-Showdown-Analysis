@@ -1,7 +1,6 @@
 # Stock-Showdown-Analysis
 # Stock Showdown: Comparative Asset Analysis Tool
 
-![Stock Showdown Chart](comparison_chart.png)
 
 # Apple vs. NVIDIA: The AI Sector Showdown
 
@@ -20,4 +19,5 @@ This project provides a quantitative comparison between **Apple (AAPL)** and **N
 - **Robust Reporting**: Automatically exports analysis results to a high-resolution PNG for stakeholder review.
 
 ## 📈 Performance Visualization
-![Market Comparison](comparison_chart.png)
+![Stock Showdown Chart](comparison_chart.png)
+
