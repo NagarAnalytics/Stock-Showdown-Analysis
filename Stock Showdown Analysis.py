@@ -76,7 +76,8 @@ def compare_stocks(ticker1, ticker2, start_date):
     print(f"Total Percentage Return: {Total_Return}")
 
 # NOW YOU CAN USE IT LIKE THIS:
-compare_stocks('TSLA', 'BTC-USD', '2025-01-01')
+compare_stocks('AAPL', 'NVDA', '2025-01-01')
+
 
 
 
