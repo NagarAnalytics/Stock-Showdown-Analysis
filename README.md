@@ -1,6 +1,8 @@
 # Stock-Showdown-Analysis
 # Stock Showdown: Comparative Asset Analysis Tool
 
+![Stock Showdown Chart](comparison_chart.png)
+
 ## 📊 Project Overview
 I built this tool to analyze the performance of various assets (Stocks, Crypto, Gold) against the S&P 500 benchmark. It handles the "messy" reality of finance data, such as differing market hours and high volatility.
 
