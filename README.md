@@ -3,17 +3,21 @@
 
 ![Stock Showdown Chart](comparison_chart.png)
 
+# Apple vs. NVIDIA: The AI Sector Showdown
+
 ## 📊 Project Overview
-I built this tool to analyze the performance of various assets (Stocks, Crypto, Gold) against the S&P 500 benchmark. It handles the "messy" reality of finance data, such as differing market hours and high volatility.
+This project provides a quantitative comparison between **Apple (AAPL)** and **NVIDIA (NVDA)** using 2025 market data. The analysis focuses on how the leader in AI hardware (NVIDIA) compares to the leader in consumer integration (Apple) in terms of stock performance and market volatility.
 
 ## 🛠️ Skills Demonstrated
-* **Time-Series Analysis**: Normalizing prices to compare assets with different starting values.
-* **Data Cleaning**: Handling missing values (NaNs) in cross-market data using forward-filling.
-* **Quantitative Metrics**: Calculating Daily Returns, Volatility (Risk), and Correlation.
-* **Visualization**: Plotting multi-asset growth charts with Matplotlib.
+* **Financial Data Pipelines**: Pulling real-time equity data using the `yfinance` API.
+* **Normalization Techniques**: Scaling prices to a base of 1.0 to compare growth independent of share price.
+* **Pandas Expertise**: Handling Datetime indexing and forward-filling data for consistent analysis.
+* **Object-Oriented Visualization**: Using Matplotlib's `fig, ax` structure to generate high-fidelity charts.
 
-## 🚀 How it Works
-The function `compare_stocks(ticker1, ticker2, start_date)` pulls live data from Yahoo Finance, scales it to a "Growth of $1" basis, and identifies how closely two assets move together relative to the S&P 500.
+## 🚀 Key Features
+- **Automated Cleaning**: Removes null values and aligns trading days between stocks.
+- **Benchmark Analysis**: Calculates the relative growth of $1 invested at the start of the year.
+- **Robust Reporting**: Automatically exports analysis results to a high-resolution PNG for stakeholder review.
 
-## 📈 Sample Output
-*Calculates total percentage returns and visualizes risk-reward trade-offs.*
+## 📈 Performance Visualization
+![Market Comparison](comparison_chart.png)
