@@ -64,8 +64,8 @@ def compare_stocks(ticker1, ticker2, start_date):
     plt.show()
 
     # Total Percentage Return
-    First_Price = data.loc[0]
-    Last_Price = data.loc[-1]
+    First_Price = data.iloc[0]
+    Last_Price = data.iloc[-1]
 
     Total_Return = (Last_Price / First_Price) - 1
 
@@ -77,6 +77,7 @@ def compare_stocks(ticker1, ticker2, start_date):
 
 # NOW YOU CAN USE IT LIKE THIS:
 compare_stocks('AAPL', 'NVDA', '2025-01-01')
+
 
 
 
