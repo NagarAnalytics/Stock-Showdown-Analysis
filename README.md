@@ -1,11 +1,10 @@
-# Stock-Showdown-Analysis
-# Stock Showdown: Comparative Asset Analysis Tool
-
+# 📈📉Stock-Showdown-Analysis
+# 📈📉Stock Showdown: Comparative Asset Analysis Tool
 
 # Apple vs. NVIDIA: The AI Sector Showdown
 
 ## 📊 Project Overview
-This project provides a quantitative comparison between **Apple (AAPL)** and **NVIDIA (NVDA)** using 2025 market data. The analysis focuses on how the leader in AI hardware (NVIDIA) compares to the leader in consumer integration (Apple) in terms of stock performance and market volatility.
+This project provides a quantitative comparison between **Apple (AAPL)** and **NVIDIA (NVDA)** using 2025 market data. The analysis examines how the leader in AI hardware (NVIDIA) compares with the leader in consumer integration (Apple) in terms of stock performance and market volatility.
 
 ## 🛠️ Skills Demonstrated
 * **Financial Data Pipelines**: Pulling real-time equity data using the `yfinance` API.
