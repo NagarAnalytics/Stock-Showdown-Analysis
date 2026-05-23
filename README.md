@@ -1,4 +1,3 @@
-# 📈📉Stock-Showdown-Analysis
 # 📈📉Stock Showdown: Comparative Asset Analysis Tool
 
 # Apple vs. NVIDIA: The AI Sector Showdown
